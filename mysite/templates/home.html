@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2학년 홍길동 설문조사</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style2.css' %}">
+</head>
+<body>
+<header>
+    <div class="name">
+        <h1>2020 Web Programming</h1>
+    </div>
+</header>
+
+<div class="main">
+    <div class="text1">
+        <h1>설문조사 바로가기</h1>
+        <a href="{% url 'polls:index' %}">클릭</a>
+    </div>
+</div>
+<footer>
+    <div id="footer1">
+        <div id="copyright">
+            COPYRIGHTⓒ INCHEON ACADEMY OF SCIENCE & ARTS. ALL RIGHTS RESERVED.
+        </div>
+    </div>
+    <div id="info">
+            인천과학예술영재학교 <br>
+            2학년 홍길동<br>
+            주소 : 인천광역시 연수구 아카데미로 192<br>
+            HP : 010 - 1234 -5678<br>
+    </div>
+</footer>
+
+</body>
+</html>

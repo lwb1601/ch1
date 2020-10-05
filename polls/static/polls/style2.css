@@ -1,0 +1,15 @@
+header > div {
+    float: left;
+}
+.name {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    color: blue;
+}
+#footer {
+    width: 70%;
+    height: 100%;
+    background-color: #AA0000;
+    background-position: center bottom;
+}
